@@ -1,7 +1,7 @@
 generatorOptions:
   disableNameSuffixHash: true 
 configMapGenerator:
-- name: dummy-dev-postgres-backup
+- name: dummy-prd-postgres-backup
   namespace: air
   literals:
   - PGPASSWORD=touring
